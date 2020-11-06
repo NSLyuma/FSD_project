@@ -1,5 +1,64 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Monsterrat", sans-serif;
 }
 
+.top {
+    display: flex;
+    padding: 15px 140px;
+    justify-content: space-between;
+}
+
+.top__menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.top__link {
+    text-decoration: none;
+    color: rgba(31, 32, 65, 0.5);
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 20px;
+}
+
+.top__select {
+    border: none;
+    appearance: none;
+    background-image: url("img/choice_arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 20px;
+}
+
+/*Это единственное, что я смогла придумать с кнопками, но они всё равно кривые*/
+
+.sign-in-link, .sign-up-link {
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: url("img/top_button_border.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sign-in-link {
+    color: #BC9CFF;
+    padding: 9px 20px;
+}
+
+.sign-up-link {
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    padding: 8px 20px 8px;
+}
+
+.room__header-font {
+    font-family: "Quicksand", sans-serif;
+}
