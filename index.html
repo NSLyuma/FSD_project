@@ -35,30 +35,38 @@
         </ul>
     </div>
 
-    <form class="room">
-        <h1 class="room__header-font">Найдём номера под ваши пожелания</h1>
-        <div class="room__arrival">
-            <label for="arrival">Прибытие</label>
-            <input id="arrival" type="date" name="arrival">
-        </div>
+    <div class="room">
+        <form class="room__form">
+            <h1 class="room__header-font">Найдём номера под ваши пожелания</h1>
+            <div class="room__checking">
+                <div class="room__date checking-margin">
+                    <div class="room__arrival">
+                        <label class="room__label" for="arrival">Прибытие</label>
+                        <input class="room__input" id="arrival" type="date" name="arrival">
+                    </div>
 
-        <div class="room__departure">
-            <label for="departure">Выезд</label>
-            <input id="departure" type="date" name="departure">
-        </div>
+                    <div class="room__departure">
+                        <label class="room__label" for="departure">Выезд</label>
+                        <input class="room__input" id="departure" type="date" name="departure">
+                    </div>
+                </div>
 
-        <div class="room__guests">
-            <label for="guests">Гости</label>
-            <select name="guests" id="guests">
-                <option value="">Сколько гостей</option>
-                <option value="">Взрослые</option>
-                <option value="">Дети</option>
-                <option value="">Младенцы</option>
-            </select>
-        </div>
+                <div class="room__guests checking-margin">
+                    <label class="room__label" for="guests">Гости</label>
+                    <select name="guests" id="guests">
+                        <option value="">Сколько гостей</option>
+                        <option value="">Взрослые</option>
+                        <option value="">Дети</option>
+                        <option value="">Младенцы</option>
+                    </select>
+                </div>
 
-        <button>Подобрать номер</button>
-    </form>
+                <button class="room__button">Подобрать номер</button>
+            </div>
+        </form>
+
+        <p>Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
+    </div>
 
     <footer>
         <div class="footer__top">
